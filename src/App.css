@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat+Alternates:ital@1&family=Open+Sans&display=swap");
+@font-face {
+    font-family: 'Custom Font';
+    src: url('./assets/fonts/ArbFONTS-Almarai-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+:root {
+  --bg-color: #eaeaea;
+  --font-family: "Custom Font", sans-serif;
+  --font-color: #000000;
+}
+
+html,
+body {
+  /* background-color: #9d9d9d; */
+  overflow-x: hidden;
+  font-family: var(--font-family);
+  color: var(--font-color);
+  font-weight: 400;
+}
+* {
+  /* text-transform: capitalize; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: var(--font-family);
+  color: var(--font-color);
+}
+
+.cur {
+  cursor: pointer;
+}
+.noncur {
+  cursor: auto;
+}
+
